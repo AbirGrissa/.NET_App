@@ -1,0 +1,24 @@
+2022-02-05 15:46:35.225 +01:00 [INF] Ah, there you are!
+2022-02-05 15:46:36.333 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-05 15:46:36.336 +01:00 [INF] Hosting environment: Development
+2022-02-05 15:46:36.337 +01:00 [INF] Content root path: C:\Users\abirg\source\repos\asp_app\asp_app
+2022-02-05 15:46:36.356 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44345/swagger/index.html - -
+2022-02-05 15:46:36.578 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44345/_framework/aspnetcore-browser-refresh.js - -
+2022-02-05 15:46:36.578 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44345/swagger/index.html - - - 200 - text/html;charset=utf-8 225.3431ms
+2022-02-05 15:46:36.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44345/_framework/aspnetcore-browser-refresh.js - - - 200 11941 application/javascript;+charset=utf-8 9.9998ms
+2022-02-05 15:46:36.695 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44345/swagger/v1/swagger.json - -
+2022-02-05 15:46:36.800 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44345/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.6994ms
+2022-02-05 15:46:53.288 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44345/WeatherForecast - -
+2022-02-05 15:46:53.334 +01:00 [INF] Executing endpoint 'asp_app.Controllers.WeatherForecastController.Get (asp_app)'
+2022-02-05 15:46:53.368 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[asp_app.WeatherForecast] Get() on controller asp_app.Controllers.WeatherForecastController (asp_app).
+2022-02-05 15:46:53.388 +01:00 [INF] Executing ObjectResult, writing value of type 'asp_app.WeatherForecast[]'.
+2022-02-05 15:46:53.431 +01:00 [INF] Executed action asp_app.Controllers.WeatherForecastController.Get (asp_app) in 50.7122ms
+2022-02-05 15:46:53.433 +01:00 [INF] Executed endpoint 'asp_app.Controllers.WeatherForecastController.Get (asp_app)'
+2022-02-05 15:46:53.434 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44345/WeatherForecast - - - 200 - application/json;+charset=utf-8 146.4397ms
+2022-02-05 15:46:55.774 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44345/WeatherForecast - -
+2022-02-05 15:46:55.775 +01:00 [INF] Executing endpoint 'asp_app.Controllers.WeatherForecastController.Get (asp_app)'
+2022-02-05 15:46:55.775 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[asp_app.WeatherForecast] Get() on controller asp_app.Controllers.WeatherForecastController (asp_app).
+2022-02-05 15:46:55.775 +01:00 [INF] Executing ObjectResult, writing value of type 'asp_app.WeatherForecast[]'.
+2022-02-05 15:46:55.776 +01:00 [INF] Executed action asp_app.Controllers.WeatherForecastController.Get (asp_app) in 1.0028ms
+2022-02-05 15:46:55.776 +01:00 [INF] Executed endpoint 'asp_app.Controllers.WeatherForecastController.Get (asp_app)'
+2022-02-05 15:46:55.777 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44345/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.4030ms
