@@ -19,7 +19,7 @@ namespace asp_app
     .WriteTo.File(
                 path: "log.txt",
         outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}",
-        //rollingInterval: RollingInterval Day,
+        rollingInterval: RollingInterval.Day,
         restrictedToMinimumLevel:Serilog.Events.LogEventLevel.Information)
     .CreateLogger();
             try
